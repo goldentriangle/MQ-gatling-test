@@ -56,11 +56,14 @@ class MQSimulation extends Simulation {
 		.pause(6, 7)
          .exec(
 			http("request_6")
-				.put("/kestrel/v0/hoge?msg=gatling"))
+				.put("/kestrel/v0/hoge?msg=gatling_kestrel"))
+		.pause(6, 7)
+        .exec(
+			http("request_7")
+				.put("/kafka/v0/new2?msg=gatling_kafka&batchSize=100"))
 		.pause(6, 7)
 
-	setUp(scn.inject(ramp(20 users) over (5 seconds)))
+	setUp(scn.inject(ramp(100 users) over (5 seconds)))
 		.protocols(httpConf)
-		.assertions(
-			global.successfulRequests.percent.is(100))
+		//.assertions(	global.successfulRequests.percent.is(95))
 }

@@ -1,0 +1,10 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	400	400	0	0	0	-1	30	30	-1	11	11	-1	4	4	-1	20	20	-1	30	30	-1	t < 800 ms	400	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	9	9	-1
+request_0	50	50	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_1	50	50	0	10	10	-1	30	30	-1	15	15	-1	5	5	-1	20	20	-1	30	30	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_2	50	50	0	10	10	-1	30	30	-1	15	15	-1	7	7	-1	20	20	-1	30	30	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_3	50	50	0	10	10	-1	20	20	-1	11	11	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_4	50	50	0	10	10	-1	30	30	-1	11	11	-1	3	3	-1	10	10	-1	30	30	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_5	50	50	0	0	0	-1	10	10	-1	8	8	-1	4	4	-1	10	10	-1	10	10	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_6	50	50	0	0	0	-1	10	10	-1	5	5	-1	5	5	-1	10	10	-1	10	10	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+request_7	50	50	0	10	10	-1	20	20	-1	11	11	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
