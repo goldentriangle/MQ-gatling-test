@@ -1,7 +1,5 @@
-gatling-maven-plugin-demo
+simple gatling test for message queue rest api using the gatling-maven-plugin
 =========================
-
-Simple showcase of a maven project using the gatling-maven-plugin.
 
 To test it out, simply execute the following command :
 
