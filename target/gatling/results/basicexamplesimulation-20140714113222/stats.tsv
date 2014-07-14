@@ -1,0 +1,13 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	90	90	0	50	50	-1	310	310	-1	98	98	-1	44	44	-1	210	210	-1	240	240	-1	t < 800 ms	90	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	1	1	-1
+Login	3	3	0	12750	12750	-1	13160	13160	-1	13000	13000	-1	179	179	-1	13160	13160	-1	13160	13160	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	3	100	failed	0	0	0	0	-1
+Login / request_1	3	3	0	100	100	-1	210	210	-1	167	167	-1	47	47	-1	210	210	-1	210	210	-1	t < 800 ms	3	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+Login / request_2	3	3	0	50	50	-1	220	220	-1	110	110	-1	78	78	-1	220	220	-1	220	220	-1	t < 800 ms	3	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+Login / request_3	3	3	0	60	60	-1	100	100	-1	73	73	-1	20	20	-1	100	100	-1	100	100	-1	t < 800 ms	3	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_4	15	15	0	70	70	-1	240	240	-1	88	88	-1	43	43	-1	120	120	-1	240	240	-1	t < 800 ms	15	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_5	15	15	0	110	110	-1	160	160	-1	121	121	-1	19	19	-1	150	150	-1	160	160	-1	t < 800 ms	15	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_6	15	15	0	60	60	-1	100	100	-1	71	71	-1	11	11	-1	70	70	-1	100	100	-1	t < 800 ms	15	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_7	15	15	0	100	100	-1	140	140	-1	113	113	-1	11	11	-1	140	140	-1	140	140	-1	t < 800 ms	15	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_8	15	15	0	70	70	-1	310	310	-1	100	100	-1	68	68	-1	220	220	-1	310	310	-1	t < 800 ms	15	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_9	3	3	0	50	50	-1	90	90	-1	63	63	-1	20	20	-1	90	90	-1	90	90	-1	t < 800 ms	3	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_10	3	3	0	50	50	-1	50	50	-1	50	50	-1	0	0	-1	50	50	-1	50	50	-1	t < 800 ms	3	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
